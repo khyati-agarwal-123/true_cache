@@ -12,8 +12,7 @@ These are the basic steps to configure Oracle Global Data Services (GDS) for
 True Cache.
 
 For additional GDS configuration options, see [Configuring the Global Data
-Services Framework](https://docs.oracle.com/pls/topic/lookup?ctx=en/database/oracle/oracle-
-database/23&id=GSMUG-GUID-04D33448-2CB4-40C7-9DA0-1CFC6EC5E101).
+Services Framework](https://docs.oracle.com/pls/topic/lookup?ctx=en/database/oracle/oracle-database/23&id=GSMUG-GUID-04D33448-2CB4-40C7-9DA0-1CFC6EC5E101).
 
 ### 9.3.1 Set Up the Environment
 
@@ -26,8 +25,7 @@ system, and other software requirements for Linux.
 
 For detailed information about memory, physical storage, kernel versions and
 packages required by Global Data Services see [Database Installation Guide for
-Linux](https://docs.oracle.com/pls/topic/lookup?ctx=en/database/oracle/oracle-
-database/23/gsmug&id=LADBI-GUID-7273645F-03DA-4B92-A8E8-6ABE82D674B9).
+Linux](https://docs.oracle.com/pls/topic/lookup?ctx=en/database/oracle/oracle-database/23/gsmug&id=LADBI-GUID-7273645F-03DA-4B92-A8E8-6ABE82D674B9).
 
 **Related Topics**
 
@@ -51,11 +49,9 @@ Services Concepts and Administration Guide:
 
 Create True Caches using Oracle DBCA or manually.
 
-See [Creating True Cache with DBCA](configuring-true-cache-oracle-
-dbca.md#GUID-A534C50F-3A84-4C04-9765-F85F99F0E52F "Follow these steps to
+See [Creating True Cache with DBCA](configuring-true-cache-oracle-dbca.md#GUID-A534C50F-3A84-4C04-9765-F85F99F0E52F "Follow these steps to
 create True Cache with Oracle DBCA.") or [Creating True Cache
-Manually](creating-true-cache-
-manually.md#GUID-8580479A-7DD5-4B64-A3DE-70A6E25654AF "Follow these steps to
+Manually](creating-true-cache-manually.md#GUID-8580479A-7DD5-4B64-A3DE-70A6E25654AF "Follow these steps to
 create True Cache manually.").
 
 ### 9.3.4 Configure the GDS Catalog Database
@@ -346,8 +342,7 @@ Note:
 
 This table lists the add service options that are specific to True Cache. For
 the full syntax and parameters, see [add
-service](https://docs.oracle.com/pls/topic/lookup?ctx=en/database/oracle/oracle-database/23&id=GSMUG-
-GUID-4409D426-7F68-4729-9BE9-7A7C268C907B) in the Oracle Database Global Data
+service](https://docs.oracle.com/pls/topic/lookup?ctx=en/database/oracle/oracle-database/23&id=GSMUG-GUID-4409D426-7F68-4729-9BE9-7A7C268C907B) in the Oracle Database Global Data
 Services Concepts and Administration Guide.
 
 ### 9.3.10 Set Up the Client TNS Entry
