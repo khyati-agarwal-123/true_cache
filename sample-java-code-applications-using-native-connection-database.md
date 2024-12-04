@@ -26,11 +26,11 @@ Do not use this code in a production environment.
 
   2. In the methods that need to use a True Cache connection, unwrap the session, use the `doWork` method to retrieve the underlying JDBC connection, and set the necessary read-only parameter for the connection. For example: 
     
-        Session session = em.unwrap(Session.class);
-    session.doWork(new Work() {
+          Session session = em.unwrap(Session.class);
+          session.doWork(new Work() {
     
-       @Override
-       public void execute(Connection con) throws SQLException {
+          @Override
+          public void execute(Connection con) throws SQLException {
           // if it is connected to primary, I want the connection to switch to true_cache now
           if(!con.isReadOnly()) {
              // The below code demonstrates the connection is to primary now        
