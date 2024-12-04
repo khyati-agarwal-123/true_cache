@@ -20,11 +20,9 @@ Note:
 True Cache for Oracle Database Free has a simplified configuration process.
 Get started with the Oracle Database Free Installation Guide for your
 platform. See [Configuring True Cache on Oracle Database Free
-(Linux)](https://docs.oracle.com/pls/topic/lookup?ctx=en/database/oracle/oracle-database/23&id=XEINL-
-GUID-DB0B52B9-F18C-4101-807A-CD0C3B5679D5) or [Configuring True Cache on
+(Linux)](https://docs.oracle.com/pls/topic/lookup?ctx=en/database/oracle/oracle-database/23&id=XEINL-GUID-DB0B52B9-F18C-4101-807A-CD0C3B5679D5) or [Configuring True Cache on
 Oracle Database Free
-(Windows)](https://docs.oracle.com/pls/topic/lookup?ctx=en/database/oracle/oracle-
-database/23&id=XEINW-GUID-09A22E0D-EB2D-4785-9471-A0FEE2D04605).
+(Windows)](https://docs.oracle.com/pls/topic/lookup?ctx=en/database/oracle/oracle-database/23&id=XEINW-GUID-09A22E0D-EB2D-4785-9471-A0FEE2D04605).
 
 ### 2.2.1 Prerequisites
 
@@ -201,8 +199,7 @@ Example:
     
         $ORACLE_HOME/bin/dbca -configureDatabase -configureTrueCacheInstanceService -sourceDB primdb1i -trueCacheConnectString tc.example.com:1522/tcdb1.example.com -trueCacheServiceName sales_tc -serviceName sales -pdbName sales_pdb -silent
 
-For descriptions of the parameters, see [configureDatabase](configuring-true-
-cache-oracle-dbca.md#GUID-0E86301A-4DBF-4AF1-A85D-20D100C26F28 "The
+For descriptions of the parameters, see [configureDatabase](configuring-true-cache-oracle-dbca.md#GUID-0E86301A-4DBF-4AF1-A85D-20D100C26F28 "The
 configureDatabase command configures the primary database for True Cache. Run
 this command on the primary database.").
 
@@ -244,8 +241,7 @@ Note:
 
 This table lists the `configureDatabase` parameters that are specific to True
 Cache. For the full syntax and parameters, see
-[configureDatabase](https://docs.oracle.com/pls/topic/lookup?ctx=en/database/oracle/oracle-
-database/23&id=MULTI-GUID-23781683-79F3-437B-ADB3-17BD1ED5BE5D) in the Oracle
+[configureDatabase](https://docs.oracle.com/pls/topic/lookup?ctx=en/database/oracle/oracle-database/23&id=MULTI-GUID-23781683-79F3-437B-ADB3-17BD1ED5BE5D) in the Oracle
 Multitenant Administrator's Guide.
 
 Table 2-1 configureDatabase Parameters
