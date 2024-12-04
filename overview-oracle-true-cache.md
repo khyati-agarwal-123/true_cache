@@ -10,8 +10,7 @@ Oracle True Cache is an in-memory, consistent, and automatically managed SQL
 and key-value (object or JSON) cache for Oracle Database.
 
 For an interactive tour, see [Oracle True Cache Technical
-Architecture](https://docs.oracle.com/pls/topic/lookup?ctx=en/database/oracle/oracle-
-database/23&id=TCIAD).
+Architecture](https://docs.oracle.com/pls/topic/lookup?ctx=en/database/oracle/oracle-database/23&id=TCIAD).
 
 ### 1.1 About Oracle True Cache
 
