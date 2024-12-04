@@ -16,12 +16,9 @@ detailed configuration steps.
 Note:
 
 All of this information also appears in the context of the configuration steps
-for [Configuring True Cache with Oracle DBCA](configuring-true-cache-oracle-
-dbca.md#GUID-32AFBE99-73B3-4F79-A138-66007AC8A896 "The simplest way to
-configure a True Cache environment is to use Oracle Database Configuration
-Assistant \(Oracle DBCA\).") and [Configuring True Cache
-Manually](configuring-true-cache-
-manually.md#GUID-C52CC00C-3035-4A7C-8AB1-C68648A120F8 "Follow these steps to
+for [Configuring True Cache with Oracle DBCA](configuring-true-cache-oracle-dbca.md#GUID-32AFBE99-73B3-4F79-A138-66007AC8A896 "The simplest way to
+configure a True Cache environment is to use Oracle Database Configuration Assistant \(Oracle DBCA\).") and [Configuring True Cache
+Manually](configuring-true-cache-manually.md#GUID-C52CC00C-3035-4A7C-8AB1-C68648A120F8 "Follow these steps to
 set up a True Cache environment manually if you're not using the Oracle
 Database Configuration Assistant \(Oracle DBCA\).").
 
