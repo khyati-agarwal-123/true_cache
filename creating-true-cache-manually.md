@@ -124,8 +124,7 @@ Here's an example of `listener.ora` on a True Cache node:
   2. In a command window, ensure that the `ORACLE_HOME` and `ORACLE_SID` environment variables are set properly.
 
 See [Configuring the Operating System Environment
-Variables](https://docs.oracle.com/pls/topic/lookup?ctx=dblatest&id=GUID-
-EC18C4A6-3BA5-4C14-9D76-B0DD62FEFFF2).
+Variables](https://docs.oracle.com/pls/topic/lookup?ctx=dblatest&id=GUID-EC18C4A6-3BA5-4C14-9D76-B0DD62FEFFF2).
 
   3. Ensure that the `$ORACLE_HOME/bin` directory is in your `PATH` environment variable.
   4. Start the listener and verify that it started correctly.
@@ -178,8 +177,7 @@ To learn more about wallet types, see [About Oracle Database
 Wallets](https://docs.oracle.com/pls/topic/lookup?ctx=en/database/oracle/oracle-database/23&id=DBSEG-
 GUID-B24417A4-ED1D-428C-AB18-E3E7D32D9005). To learn more about wallet types,
 see [About Oracle Database
-Wallets](https://docs.oracle.com/pls/topic/lookup?ctx=en/database/oracle/oracle-database/23&id=DBSEG-
-GUID-B24417A4-ED1D-428C-AB18-E3E7D32D9005)
+Wallets](https://docs.oracle.com/pls/topic/lookup?ctx=en/database/oracle/oracle-database/23&id=DBSEG-GUID-B24417A4-ED1D-428C-AB18-E3E7D32D9005)
 
 ### 2.3.2.4 Prepare a PFILE for True Cache
 
