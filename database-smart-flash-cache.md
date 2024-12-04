@@ -12,8 +12,7 @@ capacity of True Cache by adding flash devices. You do this by configuring
 Database Smart Flash Cache.
 
 To enable Database Smart Flash Cache, see [Configuring Database Smart Flash
-Cache](https://docs.oracle.com/pls/topic/lookup?ctx=db23&id=ADMIN-
-GUID-31E0885D-53DB-442D-BC5F-DDE0588C915A).
+Cache](https://docs.oracle.com/pls/topic/lookup?ctx=db23&id=ADMIN-GUID-31E0885D-53DB-442D-BC5F-DDE0588C915A).
 
 Note:
 
