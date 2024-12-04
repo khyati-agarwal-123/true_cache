@@ -29,8 +29,7 @@ use OS authentication to manage True Cache as `SYSDBA`. If the user can set
 knowing the `SYSDBA` password.
 
 For more on enabling DML redirection, see [Managing Physical and Snapshot
-Standby Databases](https://docs.oracle.com/pls/topic/lookup?ctx=en/database/oracle/oracle-
-database/23/odbtc&id=SBYDB-GUID-B140C38B-DE01-4252-8422-7154018DDFEC).
+Standby Databases](https://docs.oracle.com/pls/topic/lookup?ctx=en/database/oracle/oracle-database/23/odbtc&id=SBYDB-GUID-B140C38B-DE01-4252-8422-7154018DDFEC).
 
 
 [← Previous](verifying-true-cache-configuration.md)
