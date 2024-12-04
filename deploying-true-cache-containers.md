@@ -18,8 +18,7 @@ following configuration tasks:
 
 See the complete instructions for downloading the images and creating the
 containers in the [Oracle Database Container Images
-README.md](https://github.com/oracle/docker-
-images/blob/main/OracleDatabase/SingleInstance/README.md).
+README.md](https://github.com/oracle/docker-images/blob/main/OracleDatabase/SingleInstance/README.md).
 
 Create a separate container for each True Cache. Assign different container
 names, Oracle SIDs, and database application service names, as needed.
