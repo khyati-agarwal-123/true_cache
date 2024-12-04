@@ -10,8 +10,7 @@ The following table describes the True Cache-related statistics stored in the
 `V$SESSTAT` and `V$SYSSTAT` views.
 
 For details on classes and `TIMED_STATISTICS`, see [Statistics
-Descriptions](https://docs.oracle.com/pls/topic/lookup?ctx=en/database/oracle/oracle-
-database/23&id=REFRN-GUID-2FBC1B7E-9123-41DD-8178-96176260A639).
+Descriptions](https://docs.oracle.com/pls/topic/lookup?ctx=en/database/oracle/oracle-database/23&id=REFRN-GUID-2FBC1B7E-9123-41DD-8178-96176260A639).
 
 Table B-1 Database Statistics Descriptions
 
