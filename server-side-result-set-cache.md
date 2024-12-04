@@ -14,8 +14,7 @@ are used in future uses of the query, query fragment, or PL/SQL function.
 The cached results stay in the result cache memory part of the SGA. A cached
 result is automatically invalidated whenever a database object used in its
 creation is successfully changed. See [Tuning the Result
-Cache](https://docs.oracle.com/pls/topic/lookup?ctx=en/database/oracle/oracle-
-database/23/odbtc&id=TGDBA-GUID-FA30CC32-17AB-477A-9E4C-B47BFE0968A1) for more
+Cache](https://docs.oracle.com/pls/topic/lookup?ctx=en/database/oracle/oracle-database/23/odbtc&id=TGDBA-GUID-FA30CC32-17AB-477A-9E4C-B47BFE0968A1) for more
 information about configuring the server-side result set cache.
 
 To enable the server-side result cache on True Cache, issue the following
