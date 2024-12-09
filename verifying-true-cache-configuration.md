@@ -8,11 +8,11 @@ Verify that True Cache and the database application services are working as expe
 
 To verify that True Cache is applying redo and making progress, check the following queries on True Cache.
 
-  1. Run SQL*Plus on the True Cache.
+ 1. Run SQL*Plus on the True Cache.
     
         sqlplus / as SYSDBA
 
-  2. Enter the following query:
+ 2. Enter the following query:
     
         SELECT database_role, open_mode FROM v$database;
 
@@ -24,13 +24,13 @@ The output should look like this:
 
 If `OPEN_MODE` is `READ ONLY WITH APPLY`, it means that the True Cache redo apply is actively working. 
 
-  3. Enter the following query multiple times:
+3. Enter the following query multiple times:
     
         SELECT current_scn FROM v$database;
 
 If `CURRENT_SCN` is advancing over time, it means that True Cache is moving forward as expected. 
 
-  4. To find the size of each log file, enter the following query:
+4. To find the size of each log file, enter the following query:
     
         SELECT THREAD#, SEQUENCE#, BYTES FROM v$standby_log;
 
@@ -72,11 +72,11 @@ Verify that all database application services are active on both the primary dat
 
 True Cache
 
-  1. Run SQL*Plus on True Cache.
+1. Run SQL*Plus on True Cache.
     
         sqlplus / as SYSDBA
 
-  2. Enter the following query:
+2. Enter the following query:
     
         SELECT service_id, name FROM v$active_services WHERE name='true_cache_service_name';
 
@@ -93,11 +93,11 @@ For example:
 
 Primary Database
 
-  1. Run SQL*Plus on the primary database.
+1. Run SQL*Plus on the primary database.
     
         sqlplus / as SYSDBA
 
-  2. Enter the following query:
+2. Enter the following query:
     
         SELECT service_id, name, true_cache_service FROM v$active_services WHERE name='primary_db_service_name';
 
