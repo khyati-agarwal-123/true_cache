@@ -1,26 +1,19 @@
-[Previous](methods-connecting-true-cache.md) [Next](sample-java-code-
-applications-using-native-connection-database.md) JavaScript must be enabled
-to correctly display this content
+ 
 
-  1. [Oracle True Cache User's Guide](index.md)
-  2. [Using Oracle True Cache in Your Applications](using-oracle-true-cache-your-applications.md)
-  3. Sample Java Code Using the JDBC Thin Driver
+## Sample Java Code Using the JDBC Thin Driver {#ODBTC-GUID-832FFB3D-6677-4312-8A35-30F73C5A73AE}
 
-## 6.2 Sample Java Code Using the JDBC Thin Driver
-
-The JDBC method is illustrated by the following Java code using the JDBC Thin
-driver.
+The JDBC method is illustrated by the following Java code using the JDBC Thin driver.
 
 WARNING:
 
-Do not use this code in a production environment.
+Do not use this code in a production environment. 
 
-The core of this basic code is in the `test1` function, which does the
-following:
+The core of this basic code is in the `test1` function, which does the following: 
 
   1. Creates a connection to the primary database by using the JDBC Thin driver with either a default user name and password or values that are specified on the command line when invoking the program.
   2. Prints some basic information about the primary database connection to verify that the application is connected to the database.
   3. Changes the `isReadOnly` connection parameter to `TRUE` to automatically switch the connection to True Cache and verify that it's connected to it. 
+
 
     
     
@@ -109,8 +102,3 @@ following:
         System.out.println(msg);
       }
     }
-
-
-[← Previous](methods-connecting-true-cache.md)
-
-[Next →](sample-java-code-applications-using-native-connection-database.md)

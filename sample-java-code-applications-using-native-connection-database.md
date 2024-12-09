@@ -1,36 +1,24 @@
-[Previous](sample-java-code-using-jdbc-thin-driver.md) [Next](best-
-practices-load-balancing-uniform-configuration.md) JavaScript must be
-enabled to correctly display this content
+ 
 
-  1. [Oracle True Cache User's Guide](index.md)
-  2. [Using Oracle True Cache in Your Applications](using-oracle-true-cache-your-applications.md)
-  3. Sample Java Code for Applications Using a Native Connection to the Database
+## Sample Java Code for Applications Using a Native Connection to the Database {#ODBTC-GUID-642FF528-C1D3-4436-997D-0D907C0F556B}
 
-## 6.3 Sample Java Code for Applications Using a Native Connection to the
-Database
+The following Java code illustrates how to use True Cache with applications that use an object-relational mapping (ORM) framework. 
 
-The following Java code illustrates how to use True Cache with applications
-that use an object-relational mapping (ORM) framework.
-
-This is another example of maintaining only one logical connection to a
-database application service running on the primary database and letting the
-driver handle the underlying physical connections. It shows how to get the
-underlying connections from the framework so you can set the necessary
-parameter.
+This is another example of maintaining only one logical connection to a database application service running on the primary database and letting the driver handle the underlying physical connections. It shows how to get the underlying connections from the framework so you can set the necessary parameter.
 
 WARNING:
 
-Do not use this code in a production environment.
+Do not use this code in a production environment. 
 
   1. Add the `oracle.jdbc.useTrueCacheDriverConnection=true` connection property to the connection URL in the `persistence.xml` file. 
 
   2. In the methods that need to use a True Cache connection, unwrap the session, use the `doWork` method to retrieve the underlying JDBC connection, and set the necessary read-only parameter for the connection. For example: 
     
-          Session session = em.unwrap(Session.class);
-          session.doWork(new Work() {
+        Session session = em.unwrap(Session.class);
+    session.doWork(new Work() {
     
-          @Override
-          public void execute(Connection con) throws SQLException {
+       @Override
+       public void execute(Connection con) throws SQLException {
           // if it is connected to primary, I want the connection to switch to true_cache now
           if(!con.isReadOnly()) {
              // The below code demonstrates the connection is to primary now        
@@ -57,6 +45,4 @@ Do not use this code in a production environment.
     });
 
 
-[← Previous](sample-java-code-using-jdbc-thin-driver.md)
 
-[Next →](best-practices-load-balancing-uniform-configuration.md)

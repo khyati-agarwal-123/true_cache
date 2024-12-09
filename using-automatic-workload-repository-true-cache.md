@@ -1,28 +1,18 @@
-[Previous](monitoring-true-cache-vtrue_cache-view.md) [Next](using-oracle-
-true-cache-your-applications.md) JavaScript must be enabled to correctly
-display this content
+ 
 
-  1. [Oracle True Cache User's Guide](index.md)
-  2. [Monitoring True Cache](monitoring-true-cache.md)
-  3. Using the Automatic Workload Repository for True Cache
+## Using the Automatic Workload Repository for True Cache {#ODBTC-GUID-3F7BD0AE-A891-46B4-9C9E-4EDA98DBFCD9}
 
-## 5.2 Using the Automatic Workload Repository for True Cache
+You can use the Automatic Workload Repository (AWR) to gather performance statistics for True Cache.
 
-You can use the Automatic Workload Repository (AWR) to gather performance
-statistics for True Cache.
-
-AWR snapshots for True Cache are enabled by default. Snapshots are
-automatically captured hourly.
+AWR snapshots for True Cache are enabled by default. Snapshots are automatically captured hourly.
 
 You can also manually create a snapshot. For example:
-
     
     
     // Create snapshots (snap_id 0 means failure)
     SELECT DBMS_WORKLOAD_REPOSITORY.CREATE_SNAPSHOT FROM dual;
 
-To generate an AWR snapshot report, complete the following steps on either the
-primary database or the True Cache:
+To generate an AWR snapshot report, complete the following steps on either the primary database or the True Cache:
 
   1. Go to the `$ORACLE_HOME` directory and run the following script: 
 
@@ -38,8 +28,7 @@ primary database or the True Cache:
     
         Enter value for report_type: text
 
-The output displays a list of available database identifiers and instance
-numbers.
+The output displays a list of available database identifiers and instance numbers.
 
   3. If you're generating the report on the primary database, enter the database identifier (`dbid)` and instance number (`inst_num)` for True Cache. For example: 
     
@@ -47,14 +36,11 @@ numbers.
     Using 3309173529 for database Id
     Enter value for inst_num: 1
 
-To get the `dbid` for True Cache, run the following query on the True Cache:
-
+To get the `dbid` for True Cache, run the following query on the True Cache: 
     
         SELECT DBMS_WORKLOAD_REPOSITORY.GET_AWR_ID() FROM dual;
 
-This step is not required if you're generating the report on True Cache
-because the `awrrpt.sql` script automatically derives the `dbid` of the local
-node.
+This step is not required if you're generating the report on True Cache because the `awrrpt.sql` script automatically derives the `dbid` of the local node. 
 
   4. Specify the number of days for which you want to list snapshot IDs. For example:
     
@@ -74,6 +60,9 @@ The output displays a list of existing snapshots for the specified time range.
     Using the report name awrrpt_1_150_160
     
 
+
+
+
 **Related Topics**
 
   * [Automatic Workload Repository (AWR)](https://docs.oracle.com/pls/topic/lookup?ctx=en/database/oracle/oracle-database/23&id=TGDBA-GUID-EF58B2F0-E380-4783-9592-A67F42D73997)
@@ -82,6 +71,3 @@ The output displays a list of existing snapshots for the specified time range.
   * [DBMS_WORKLOAD_REPOSITORY](https://docs.oracle.com/pls/topic/lookup?ctx=en/database/oracle/oracle-database/23&id=ARPLS-GUID-6FFD52F0-BB67-44E0-A95F-A81E4125547D)
 
 
-[← Previous](monitoring-true-cache-vtrue_cache-view.md)
-
-[Next →](using-oracle-true-cache-your-applications.md)

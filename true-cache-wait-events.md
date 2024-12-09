@@ -1,14 +1,10 @@
-[Previous](true-cache-database-statistics-descriptions.md) [Next](licensing-
-true-cache.md) JavaScript must be enabled to correctly display this content
+ 
 
-  1. [Oracle True Cache User's Guide](index.md)
-  2. True Cache Wait Events
-
-## C True Cache Wait Events
+## CTrue Cache Wait Events {#ODBTC-GUID-C59F279F-248F-454C-BF49-19D43922FE57}
 
 The following True Cache-related wait events are used for block fetching.
 
-Table C-1 Wait Events
+**Table C-1 Wait Events**
 
 Wait Event | Class  
 ---|---  
@@ -21,6 +17,3 @@ True Cache: list of blocks fetch | User I/O
   * [Oracle Wait Events](https://docs.oracle.com/pls/topic/lookup?ctx=en/database/oracle/oracle-database/23&id=REFRN-GUID-03BFEEFB-1020-4F3F-8CF8-A23E7026684B)
 
 
-[← Previous](true-cache-database-statistics-descriptions.md)
-
-[Next →](licensing-true-cache.md)

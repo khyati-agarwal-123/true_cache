@@ -1,30 +1,17 @@
-[Previous](monitoring-true-cache.md) [Next](using-automatic-workload-
-repository-true-cache.md) JavaScript must be enabled to correctly display
-this content
+ 
 
-  1. [Oracle True Cache User's Guide](index.md)
-  2. [Monitoring True Cache](monitoring-true-cache.md)
-  3. Monitoring True Cache with the V$TRUE_CACHE View
+## Monitoring True Cache with the V$TRUE_CACHE View {#ODBTC-GUID-467A231B-F567-4FC1-91AE-0CAEA45195CC}
 
-## 5.1 Monitoring True Cache with the V$TRUE_CACHE View
+Use the `V$TRUE_CACHE` view to monitor the overall relationship and health of a True Cache configuration. 
 
-Use the `V$TRUE_CACHE` view to monitor the overall relationship and health of
-a True Cache configuration.
-
-You can query the `V$TRUE_CACHE` view on the primary database and True Cache.
-On True Cache, the view displays a single row for the primary database that it
-connects to. On the primary database, the view shows one row for each True
-Cache that's connected to the primary database. Each row displays the status
-for the True Cache.
+You can query the `V$TRUE_CACHE` view on the primary database and True Cache. On True Cache, the view displays a single row for the primary database that it connects to. On the primary database, the view shows one row for each True Cache that's connected to the primary database. Each row displays the status for the True Cache. 
 
 To use this view, enter the following query:
-
     
     
     SELECT * FROM v$true_cache;
 
 The following example shows output on True Cache:
-
     
     
     MY_DG_ID   REMOTE_DG_ID DEST_ID TRUE_CACHE_NAME PRIMARY_NAME STATUS  REMOTE_VERSION CON_ID
@@ -32,7 +19,6 @@ The following example shows output on True Cache:
     2976625076    626116455       0 TCDB1           PRIMARYD     HEALTHY 23.0.0.0.0          0
 
 The following example shows output on a primary database:
-
     
     
     MY_DG_ID  REMOTE_DG_ID DEST_ID TRUE_CACHE_NAME PRIMARY_NAME STATUS  REMOTE_VERSION  CON_ID
@@ -40,11 +26,11 @@ The following example shows output on a primary database:
     626116455   2976625076       2 TCDB1           PRIMARYD     HEALTHY 23.0.0.0.0           0
     626116455   2499211322       3 TCDB2           PRIMARYD     HEALTHY 23.0.0.0.0           0
 
-### 5.1.1 V$TRUE_CACHE Columns
+### V$TRUE_CACHE Columns {#ODBTC-GUID-CAEC2C9F-A9C6-404A-9EBF-E82F11435843}
 
-The following table describes the columns in the `V$TRUE_CACHE` view.
+The following table describes the columns in the `V$TRUE_CACHE` view. 
 
-Table 5-1 V$TRUE_CACHE Columns
+**Table: V$TRUE_CACHE Columns**
 
 Column | Description  
 ---|---  
@@ -62,6 +48,3 @@ CON_ID | The root container ID.
   * [V$TRUE_CACHE](https://docs.oracle.com/pls/topic/lookup?ctx=en/database/oracle/oracle-database/23&id=REFRN-GUID-1F916DF5-ECEB-4DD0-AFFA-BE663B6FAFA7)
 
 
-[← Previous](monitoring-true-cache.md)
-
-[Next →](monitoring-true-cache-vtrue_cache-view.md)

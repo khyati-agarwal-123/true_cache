@@ -1,27 +1,14 @@
-[Previous](deploying-oracle-true-cache-oracle-global-data-services.md)
-[Next](true-cache-integration-global-data-services.md) JavaScript must be
-enabled to correctly display this content
+ 
 
-  1. [Oracle True Cache User's Guide](index.md)
-  2. [Deploying Oracle True Cache with Oracle Global Data Services](deploying-oracle-true-cache-oracle-global-data-services.md)
-  3. Global Data Services Overview
+## Global Data Services Overview {#ODBTC-GUID-58C520B8-B91C-43B2-974F-EED4C0BAECAC}
 
-## 9.1 Global Data Services Overview
+Oracle Global Data Services (GDS) provides workload routing based on load, locality, or lag, as well as service failover across replicas.
 
-Oracle Global Data Services (GDS) provides workload routing based on load,
-locality, or lag, as well as service failover across replicas.
+This helps enterprises maximize application performance, mitigate downtime during planned and unplanned outages, and manage resources of replicas with one interface.
 
-This helps enterprises maximize application performance, mitigate downtime
-during planned and unplanned outages, and manage resources of replicas with
-one interface.
+GDS supports Oracle Databases, standby databases, GoldenGate replicated databases, Oracle globally distributed databases, True Caches, and more.
 
-GDS supports Oracle Databases, standby databases, GoldenGate replicated
-databases, Oracle globally distributed databases, True Caches, and more.
-
-You create and manage the GDS configuration and global services with the
-`GDSCTL `command-line interface, which is similar to the `SRVCTL` command-line
-interface used to manage an Oracle Real Application Clusters (Oracle RAC)
-database and its services.
+You create and manage the GDS configuration and global services with the `GDSCTL `command-line interface, which is similar to the `SRVCTL` command-line interface used to manage an Oracle Real Application Clusters (Oracle RAC) database and its services. 
 
 A GDS configuration includes the following components:
 
@@ -33,11 +20,10 @@ A GDS configuration includes the following components:
   * A client connection pool, such as the Oracle universal connection pool (UCP) JDBC connection pool that can receive load balancing recommendations is required for global runtime connection load balancing. 
   * An Oracle Notification Service (ONS) server is located with each GSM. All ONS servers in a region are interconnected in an ONS server network. The GSMs create runtime load balancing advisories and publish them to the client connection pool through the ONS server network. 
 
+
+
 **Related Topics**
 
   * [Introduction to Global Data Services](https://docs.oracle.com/pls/topic/lookup?ctx=db23&id=GSMUG-GUID-829434C7-608D-40D4-81C8-A77A63FCD7EB)
 
 
-[← Previous](deploying-oracle-true-cache-oracle-global-data-services.md)
-
-[Next →](true-cache-integration-global-data-services.md)
