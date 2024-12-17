@@ -1,12 +1,12 @@
-Previous  [Next  ](preface.html) JavaScript must be enabled to correctly display this content 
+Previous  [ Next  ](preface.html) JavaScript must be enabled to correctly display this content 
 
-## Table of Contents 
+##  Table of Contents 
 
-  * [Title and Copyright Information ](index.html)
-  * [Preface ](preface.html#GUID-525E0C81-33F1-4489-9E76-3E56CBEDBE75)
-    * [Documentation Accessibility ](preface.html#GUID-E409CC44-9A8F-4043-82C8-6B95CD939296)
-    * [Related Documents ](preface.html#GUID-33B2BD83-DC2E-41B8-8BEE-1A647ACD13A0)
-    * [Conventions ](preface.html#GUID-593000C3-C9E0-46F9-874E-3C0896ED8C46)
+  * [ Title and Copyright Information ](index.html)
+  * [ Preface ](preface.html#GUID-525E0C81-33F1-4489-9E76-3E56CBEDBE75)
+    * [ Documentation Accessibility ](preface.html#GUID-E409CC44-9A8F-4043-82C8-6B95CD939296)
+    * [ Related Documents ](preface.html#GUID-33B2BD83-DC2E-41B8-8BEE-1A647ACD13A0)
+    * [ Conventions ](preface.html#GUID-593000C3-C9E0-46F9-874E-3C0896ED8C46)
   * [ 1  Overview of Oracle True Cache ](overview-oracle-true-cache.html#GUID-147CD53B-DEA7-438C-9639-EDC18DAB114B)
     * [ 1.1  About Oracle True Cache ](overview-oracle-true-cache.html#GUID-0E7F95E0-37C1-44E6-BC38-7C71D3DF4677)
     * [ 1.2  Benefits of Oracle True Cache ](overview-oracle-true-cache.html#GUID-6A46EF6F-AA1C-4AAD-93B0-51A2AAF7EB84)
